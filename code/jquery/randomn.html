@@ -1,0 +1,16 @@
+        <!DOCTYPE html>
+             <html>
+             <body>
+
+            <button type="button" onclick="myFunction()"> Click me</button>
+
+             <script>
+              $(document).ready(function() {
+    var quotes = new Array("foo", "bar", "baz", "chuck"),
+    randno = quotes[Math.floor( Math.random() * quotes.length )];
+    $('.quote').text( randno );
+});
+          </script>
+
+         </body>
+                </html>

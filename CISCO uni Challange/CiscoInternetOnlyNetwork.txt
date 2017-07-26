@@ -1,0 +1,30 @@
+Cisco Internet Only Network (ION) - User Credentials
+----------------------------------------------------
+
+Username (case sensitive):    emil.zahariev.2013@live.rhul.ac.uk
+Password (case sensitive):    by7gs7jt
+SSID                                internet
+
+Start Time: awaiting initial login 
+End  Time: awaiting initial login
+Timezone : Europe/London
+
+Requirements
+------------
+
+* A laptop, tablet or smartphone with wireless capabilities.
+* After enabling your wireless device, you may need to set your SSID to "internet" with no encryption or authentication.
+ * Your wireless device must be configured to obtain an IP address automatically (DHCP).
+
+Instructions
+------------
+
+ * At present, the SSID for "internet" is not broadcast at all sites. If your system does not automatically detect the "internet" SSID, you will have to enter it manually. Please configure your system as follows:
+      
+    SSID                    internet
+    Authentication      OPEN or NONE
+    Encryption          NONE
+      
+ * Launch your web browser in any of our wireless enabled areas and you will be redirected to the Cisco ION webpage.
+ * Simply enter the required information and accept the terms and conditions.
+ * You're Connected!

@@ -1,0 +1,16 @@
+var SPID="your-spreadsheet-id-here";
+function doPost(e) {
+  return doStuff(e);
+}
+
+function doGet(e){
+  return doStuff(e);
+}
+
+function doStuff(e){
+  var sheet  = SpreadsheetApp.openById(SPID).getSheetByName("COMMAND");
+  if(sheet == null) return HtmlService.createHtmlOutput("No Sheet");
+  sheet.getRange(2, 1).setValue(e.parameter.temp);
+  sheet.getRange(2,5).setValue(e.parameter.door);
+  return HtmlService.createHtmlOutput("OK");
+}

@@ -1,0 +1,85 @@
+The Drake equation is a probabilistic argument used to estimate the number of active, communicative extraterrestrial civilizations in the Milky Way galaxy. The equation was written in 1961 by Frank Drake not for purposes of quantifying the number of civilizations,[1] but intended as a way to stimulate scientific dialogue at the world's first search for extraterrestrial intelligence (SETI) meeting, in Green Bank, West Virginia. The equation summarizes the main concepts which scientists must contemplate when considering the question of other radio-communicative life.[1] The Drake equation has proved controversial since several of its factors are currently unknown, and estimates of their values span a very wide range. This has led critics to label the equation a guesstimate, or even meaningless.
+
+The Drake equation is:
+
+N = R* . fp . ne . fl . fi . fc . L
+where:
+
+N = the number of civilizations in our galaxy with which radio-communication might be possible (i.e. which are on our current past light cone)
+R* = the average rate of star formation in our galaxy
+fp = the fraction of those stars that have planets
+ne = the average number of planets that can potentially support life per star that has planets
+fl = the fraction of planets that could support life that actually develop life at some point
+fi = the fraction of planets with life that actually go on to develop intelligent life (civilizations)
+fc = the fraction of civilizations that develop a technology that releases detectable signs of their existence into space
+L = the length of time for which such civilizations release detectable signals into space
+
+Original estimates
+There is considerable disagreement on the values of these parameters, but the 'educated guesses' used by Drake and his colleagues in 1961 were:[19][20]
+
+R* = 1/year (1 star formed per year, on the average over the life of the galaxy; this was regarded as conservative)
+fp = 0.2-0.5 (one fifth to one half of all stars formed will have planets)
+ne = 1-5 (stars with planets will have between 1 and 5 planets capable of developing life)
+fl = 1 (100% of these planets will develop life)
+fi = 1 (100% of which will develop intelligent life)
+fc = 0.1-0.2 (10-20% of which will be able to communicate)
+L = 1000-100,000,000 years (which will last somewhere between 1000 and 100,000,000 years)
+Inserting the above minimum numbers into the equation gives a minimum N of 20. Inserting the maximum numbers gives a maximum of 50,000,000. Drake states that given the uncertainties, the original meeting concluded that N ≈ L, and there were probably between 1000 and 100,000,000 civilizations in the Milky Way galaxy.
+
+Range of values
+As many skeptics have pointed out, the Drake equation can give a very wide range of values, depending on the assumptions. One of the few points of agreement is that the presence of humanity means the probability of intelligence arising is greater than nil.[21] Beyond this, however, the values one may attribute to each factor in this equation tell more about a person's beliefs than about scientific facts.
+
+Using lowest values in the above estimates (and assuming the Rare Earth hypothesis implies ne*fl = 10−11, one planet with complex life in the galaxy):
+
+R* = 7/year, fp = 0.4, ne*fl = 10−11, fi = 10−9, fc = 0.1, and L = 304 years
+result in
+
+N = 7 × 0.4 × 10−11 × 10−9 × 0.1 × 304 = 8 x 10−20 (suggesting that we are probably alone in this galaxy, and likely the observable universe)
+On the other hand, with larger values for each of the parameters above, N may be greater than 1. Using the highest values in that have been proposed for each of the parameters
+
+R* = 7/year, fp = 1, ne = 0.2, fl = 0.13, fi = 1, fc = 0.2, and L = 109 years
+result in
+
+N = 7 × 1 × 0.2 × 0.13 × 1 × 0.2 × 109 = 36.4 million
+This has provided popular motivation and some funding for the SETI research.
+
+Monte Carlo simulations of estimates of the Drake equation factors based on a stellar and planetary model of the Milky Way have resulted in the number of civilizations varying by a factor of 100.[33]
+
+Current estimates
+This section discusses and attempts to list the best current estimates for the parameters of the Drake equation.
+
+R* = the rate of star creation in our galaxy
+
+Latest calculations from NASA and the European Space Agency indicate that the current rate of star formation in our galaxy is about 7 per year.
+fp = the fraction of those stars that have planets
+
+Recent analysis of Microlensing surveys has found that fp may approach 1 -- that is, stars are orbited by planets as a rule, rather than the exception; and that there are one or more bound planets per Milky Way star
+ne = the average number of planets (satellites may perhaps sometimes be just as good candidates) that can potentially support life per star that has planets
+
+In November 2013, astronomers reported, based on Kepler space mission data, that there could be as many as 40 billion Earth-sized planets orbiting in the habitable zones of sun-like stars and red dwarf stars within the Milky Way Galaxy.[35][36] 11 billion of these estimated planets may be orbiting sun-like stars.[37] Since there are about 100 billion stars in the galaxy, this implies fp*ne is roughly 0.4. The nearest planet in the habitable zone may be as little as 12 light-years away, according to the scientists.[35][36]
+Even if planets are in the habitable zone, however, the number of planets with the right proportion of elements is difficult to estimate.[38] Brad Gibson, Yeshe Fenner, and Charley Lineweaver determined that about 10% of star systems in the Milky Way galaxy are hospitable to life, by having heavy elements, being far from supernovae and being stable for a sufficient time.[39] Also, the Rare Earth hypothesis, which posits that conditions for intelligent life are quite rare, has advanced a set of arguments based on the Drake equation that the number of planets or satellites that could support life is small, and quite possibly limited to Earth alone; in this case, the estimate of ne would be almost infinitesimally small.
+The discovery of numerous gas giants in close orbit with their stars has introduced doubt that life-supporting planets commonly survive the formation of their stellar systems. In addition, most stars in our galaxy are red dwarfs, which flare violently, mostly in X-rays, a property not conducive to life as we know it. Simulations also suggest that these bursts erode planetary atmosphere.
+On the other hand, the variety of star systems that might have habitable zones is not just limited to solar-type stars and Earth-sized planets; it is now estimated that even tidally locked planets close to red dwarfs might have habitable zones.[40] The possibility of life on moons of gas giants (such as Jupiter's moon Europa, or Saturn's moon Titan) adds further uncertainty to this figure.
+fl = the fraction of the above that actually go on to develop life
+
+Geological evidence from the Earth suggests that fl may be high; life on Earth appears to have begun around the same time as favorable conditions arose, suggesting that abiogenesis may be relatively common once conditions are right. However, this evidence only looks at the Earth (a single model planet), and contains anthropic bias, as the planet of study was not chosen randomly, but by the living organisms that already inhabit it (ourselves). From a classical hypothesis testing standpoint, there are zero degrees of freedom, permitting no valid estimates to be made. If life were to be found on Mars that developed independently from life on Earth it would imply a value for fl close to one. While this would improve the degrees of freedom from zero to one, there would remain a great deal of uncertainty on any estimate due to the small sample size, and the chance they are not really independent.
+Countering this argument is that there is no evidence for abiogenesis occurring more than once on the Earth —that is, all terrestrial life stems from a common origin. If abiogenesis were more common it would be speculated to have occurred more than once on the Earth. Scientists have searched for this by looking for bacteria that are unrelated to other life on Earth, but none have been found yet. It is also possible that life arose more than once, but that other branches were out-competed, or died in mass extinctions, or were lost in other ways. Biochemists Francis Crick and Leslie Orgel laid special emphasis on this uncertainty: "At the moment we have no means at all of knowing" whether we are "likely to be alone in the galaxy (Universe)" or whether "the galaxy may be pullulating with life of many different forms." As an alternative to abiogenesis on Earth, they proposed the hypothesis of directed panspermia, which states that Earth life began with "microorganisms sent here deliberately by a technological society on another planet, by means of a special long-range unmanned spaceship" (Crick and Orgel, op.cit.).
+In 2002, using a statistical argument based on the length of time life took to evolve on Earth, Charles H. Lineweaver and Tamara M. Davis (at the University of New South Wales and the Australian Centre for Astrobiology) estimated fl as > 0.13 on planets that have existed for at least one billion years.
+fi = the fraction of the above that develops intelligent life
+
+This value remains particularly controversial. Those who favor a low value, such as the biologist Ernst Mayr, point out that of the billions of species that have existed on Earth, only one has become intelligent and from this, infer a tiny value for fi. Those who favor higher values note the generally increasing complexity of life and conclude that the eventual appearance of intelligence might be imperative, implying an fi approaching 1. Skeptics point out that the large spread of values in this factor and others make all estimates unreliable. (See Criticism).
+In addition, while it appears that life developed soon after the formation of Earth, the Cambrian explosion, in which a large variety of multicellular life forms came into being, occurred a considerable amount of time after the formation of Earth, which suggests the possibility that special conditions were necessary. Some scenarios such as the Snowball Earth or research into the extinction events have raised the possibility that life on Earth is relatively fragile. Research on any past life on Mars is relevant since a discovery that life did form on Mars but ceased to exist would affect estimates of these factors.
+This model also has a large anthropic bias and there are still zero degrees of freedom. Note that the capacity and willingness to participate in extraterrestrial communication has come relatively recently, with the Earth having only an estimated 100,000 year history of intelligent human life, and less than a century of technological ability.
+Estimates of fi have been affected by discoveries that the Solar System's orbit is circular in the galaxy, at such a distance that it remains out of the spiral arms for tens of millions of years (evading radiation from novae). Also, Earth's large moon may aid the evolution of life by stabilizing the planet's axis of rotation.
+fc = the fraction of the above that release detectable signs of their existence into space
+
+For deliberate communication, the one example we have (the Earth) does not do much explicit communication, though there are some efforts covering only a tiny fraction of the stars that might look for our presence. (See Arecibo message, for example). There is considerable speculation why an extraterrestrial civilization might exist but choose not to communicate. However, deliberate communication is not required, and calculations indicate that current or near-future Earth-level technology might well be detectable to civilizations not too much more advanced than our own. By this standard, the Earth is a communicating civilization.
+L = the expected lifetime of such a civilization for the period that it can communicate across interstellar space
+
+Michael Shermer estimated L as 420 years, based on the duration of sixty historical Earthly civilizations. Using 28 civilizations more recent than the Roman Empire, he calculates a figure of 304 years for "modern" civilizations. It could also be argued from Michael Shermer's results that the fall of most of these civilizations was followed by later civilizations that carried on the technologies, so it is doubtful that they are separate civilizations in the context of the Drake equation. In the expanded version, including reappearance number, this lack of specificity in defining single civilizations does not matter for the end result, since such a civilization turnover could be described as an increase in the reappearance number rather than increase in L, stating that a civilization reappears in the form of the succeeding cultures. Furthermore, since none could communicate over interstellar space, the method of comparing with historical civilizations could be regarded as invalid.
+David Grinspoon has argued that once a civilization has developed enough, it might overcome all threats to its survival. It will then last for an indefinite period of time, making the value for L potentially billions of years. If this is the case, then he proposes that the Milky Way galaxy may have been steadily accumulating advanced civilizations since it formed. He proposes that the last factor L be replaced with fIC*T, where fIC is the fraction of communicating civilizations become "immortal" (in the sense that they simply do not die out), and T representing the length of time during which this process has been going on. This has the advantage that T would be a relatively easy to discover number, as it would simply be some fraction of the age of the universe.
+It has also been hypothesized that once a civilization has learned of a more advanced one, its longevity could increase because it can learn from the experiences of the other.
+The astronomer Carl Sagan speculated that all of the terms, except for the lifetime of a civilization, are relatively high and the determining factor in whether there are large or small numbers of civilizations in the universe is the civilization lifetime, or in other words, the ability of technological civilizations to avoid self-destruction. In Sagan's case, the Drake equation was a strong motivating factor for his interest in environmental issues and his efforts to warn against the dangers of nuclear warfare.
+Inserting these current estimates into the original equation, using a value of 0.1 wherever the text says someone has proposed an unspecified "low value," results in the range of N being from a low of 2 to a high of 280,000,000. As study of the concepts has gone forth, the range has increased at both the minimum and maximum ends.
+
+For more info visit: http://en.wikipedia.org/wiki/Drake_equation

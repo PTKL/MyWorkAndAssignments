@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="multiplescreens.controller.MainViewController">
+  <children>
+    <VBox id="VBox" alignment="TOP_LEFT" prefHeight="700.0" prefWidth="900.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <MenuBar fx:id="menuBar" prefWidth="899.0">
+          <menus>
+            <Menu mnemonicParsing="false" text="Schedule Jobs" fx:id="scheduleJobMenu">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#getScheduleBatchJobsForToday" text="Today's Schedule" fx:id="todaysScheduleMenu" />
+                <MenuItem mnemonicParsing="false" onAction="#searchScheduleEvents" text="Search Schedule Events" fx:id="scheduleJobEventsSearchMenu" />
+                <MenuItem mnemonicParsing="false" onAction="#searchScheduleJobs" text="Search Schedule Jobs" fx:id="searchScheduleJobsMenu" />
+                <MenuItem mnemonicParsing="false" onAction="#createNewScheduleJob" text="New Schedule" fx:id="newScheduleJob" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="BatchOrder" fx:id="batchOrderMenu">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#searchBatchOrders" text="Search BatchOrder" fx:id="searchBatchOrdersMenu" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help" fx:id="helpMenu">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#about" text="About" fx:id="aboutMenu" />
+              </items>
+            </Menu>
+          </menus>
+        </MenuBar>
+        <AnchorPane fx:id="mainAnchorPane" prefHeight="665.0" prefWidth="900.0" VBox.vgrow="ALWAYS" />
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>

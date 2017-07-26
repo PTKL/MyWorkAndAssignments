@@ -1,0 +1,70 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<!-- HTML Starts here -->
+<center>
+<h1>Iot Device Programming Demo</h1>
+<h4>Google demo site for codeproject article</h4>
+Article Link :<a href="http://www.codeproject.com/Articles/853183/Internet-of-Things-Programming-IoT-Devices-Web-Ser">
+Internet of Things: Programming IoT Devices, Web Services and IoT Clients
+</a>
+
+<br><br>
+
+<div id="IotContent">
+<table border=1 width="600">
+<td align='center' valign='middle'> Temperature </td> 
+<td align='center' valign='middle'> Door Status </td> 
+<td align='center' valign='middle'> Heater Switch </td> 
+<td align='center' valign='middle'> Cooler Switch </td> <tr>
+
+<td align='center' valign='middle' id="temp"> Temperature data</td> 
+<td align='center' valign='middle' id="dstatus"> Lock status goes here...</td> 
+<td align='center' valign='middle' id="heater">
+    <input type="button" value="Heater Switch" onclick="google.script.run.withSuccessHandler(onHeaterStatus).toggleHeater()" />
+</td> 
+<td align='center' valign='middle' id="cooler">
+    <input type="button" value="Cooler Switch" onclick="google.script.run.withSuccessHandler(onCoolerStatus).toggleCooler()" />
+ </td> 
+</table>
+</div>
+</center>
+
+<!-- Scripting Starts here -->
+
+<script>
+function onHeaterStatus(data){
+   if(data==1)
+       $("#heater").css('background-color', 'green');
+   else
+       $("#heater").css('background-color', 'red');
+}
+
+function onCoolerStatus(data){
+   if(data==1)
+       $("#cooler").css('background-color', 'green');
+   else
+       $("#cooler").css('background-color', 'red');
+}
+
+function onSuccess(data) {
+    if(data == null)
+       $("#IotContent").html("Oooops!! Something went wrong! Cannot able to connect to Google Drive!");
+    else
+    {
+      if(data[0][3] == 0)
+         $("#dstatus").html("<img src='google drive/>");
+      else if(data[0][4] == 1)
+         $("#dstatus").html("<img src='google drive'/>");
+      else
+         $("#dstatus").html("<img src='google drive'/>");
+         
+      $("#temp").html(data[0][0]);
+    }
+}
+ 
+function update() {
+    $.ajaxSetup({ cache: false });
+    var data=google.script.run.withSuccessHandler(onSuccess).getMyData();
+    window.setTimeout(update, 2000);
+}
+update();
+</script>

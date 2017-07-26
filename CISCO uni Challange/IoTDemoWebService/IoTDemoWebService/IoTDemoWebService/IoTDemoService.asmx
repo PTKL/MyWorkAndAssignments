@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="IoTDemoService.asmx.cs" Class="IoTDemoWebService.Service1" %>

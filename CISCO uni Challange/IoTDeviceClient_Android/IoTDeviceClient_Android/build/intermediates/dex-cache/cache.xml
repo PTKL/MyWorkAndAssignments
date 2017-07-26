@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\build\intermediates\pre-dexed\debug\gdata-spreadsheet-meta-3.0-e446101171c942f5d1509be3933c784d7a7c73d0.jar"
+        jar="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\libs\gdata-spreadsheet-meta-3.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d896235e9bca63acd6e00380165e878bb7b9df80"/>
+    <item
+        dex="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\build\intermediates\pre-dexed\debug\gdata-client-1.0-db5cf5f98e97eca78e6e73a6227fb165ed0c444e.jar"
+        jar="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\libs\gdata-client-1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b8dabe89dcae1a48a5bd16e899b19053193c52cc"/>
+    <item
+        dex="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\build\intermediates\pre-dexed\debug\gdata-maps-meta-2.0-c27919297868127050b83e7fa1858506978e7e0e.jar"
+        jar="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\libs\gdata-maps-meta-2.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c6c689d7d78e5634d5c6d71b3a8aac023b1705ea"/>
+    <item
+        dex="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\build\intermediates\pre-dexed\debug\gdata-core-1.0-2b0e29d2a1d805eb88787ce5dbb85550c84d9e3a.jar"
+        jar="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\libs\gdata-core-1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6ff0dba2ad4e59fdda638b00d6773f3e48b61e16"/>
+    <item
+        dex="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\build\intermediates\pre-dexed\debug\gdata-client-meta-1.0-2374cb5a3755815d95b6d70cccb73eddcecb6a2c.jar"
+        jar="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\libs\gdata-client-meta-1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b72907f7afdc175df85c13c90808a80b17333894"/>
+    <item
+        dex="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\build\intermediates\pre-dexed\debug\classes-08dde51920ceb46199310210b1482e8d7e637b2c.jar"
+        jar="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\5.0.89\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa"/>
+    <item
+        dex="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\build\intermediates\pre-dexed\debug\guava-18.0-85e0dc41c3db75df7893dca44a811650cc084e0f.jar"
+        jar="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\libs\guava-18.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="cce0823396aa693798f8882e64213b1772032b09"/>
+    <item
+        dex="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\build\intermediates\pre-dexed\debug\gdata-maps-2.0-a2002dcb3fe479cf0e67cf45e51efad5bccc6ead.jar"
+        jar="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\libs\gdata-maps-2.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9a62b19b6268b63f69c8452c350f7257540d760e"/>
+    <item
+        dex="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-df666edcfa96cd15172115042c06c38a3238a651.jar"
+        jar="C:\Users\nneelame\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\build\intermediates\pre-dexed\debug\gdata-spreadsheet-3.0-d988e97ce8cc28c922c26a8abbac1a55b90b02fb.jar"
+        jar="C:\Users\nneelame\AndroidstudioProjects\IoTDeviceClient\app\libs\gdata-spreadsheet-3.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8c6cdc5aa2ff9e7b6a3ab9bbfaaa23538caff4a6"/>
+
+</pre-dex-items>

@@ -1,0 +1,18 @@
+var SPID="your-spreadsheet-id";
+function doPost(e) {
+  var sheet  = SpreadsheetApp.openById(SPID).getSheetByName("URL");
+  if(sheet == null) return HtmlService.createHtmlOutput("No Sheet");
+  sheet.getRange(2, 1).setValue(e.parameter.aurl);
+  return HtmlService.createHtmlOutput("OK");
+}
+
+function doGet(){
+  var sheet  = SpreadsheetApp.openById(SPID).getSheetByName("URL");
+  if(sheet == null) return HtmlService.createHtmlOutput("No Sheet");
+  var aurl=sheet.getRange(2, 1).getValue();
+  sheet.getRange(2,1).setValue("");
+  if(aurl.trim() == "")
+    return HtmlService.createHtmlOutput("No URL found! Please run PI module first!");
+  else
+    return HtmlService.createHtmlOutput("<a href='"+aurl+"'>Authorize PI Device</a>");
+}

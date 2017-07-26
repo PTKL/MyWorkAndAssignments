@@ -1,0 +1,31 @@
+var SPID="your spreadsheet id goes here";
+
+function doGet() {
+  return HtmlService.createHtmlOutputFromFile('IotPage');
+}
+
+function getMyData(){
+  var dsheet = SpreadsheetApp.openById(SPID).getSheetByName("COMMAND"); 
+  return dsheet.getRange("A2:G2").getValues();
+}
+
+function toggleHeater(){
+  var dsheet = SpreadsheetApp.openById(SPID).getSheetByName("COMMAND"); 
+  var hval=dsheet.getRange("F2").getValue();
+  if(hval==1)
+    dsheet.getRange("F2").setValue("0");
+  else
+    dsheet.getRange("F2").setValue("1");
+  return hval==1?0:1;
+}
+
+function toggleCooler(){
+  var dsheet = SpreadsheetApp.openById(SPID).getSheetByName("COMMAND"); 
+  var cval=dsheet.getRange("G2").getValue();
+  if(cval==1)
+    dsheet.getRange("G2").setValue("0");
+  else
+    dsheet.getRange("G2").setValue("1");
+  return cval==1?0:1;
+}
+

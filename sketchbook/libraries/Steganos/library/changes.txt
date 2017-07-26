@@ -1,0 +1,8 @@
+Steganos
+
+V1.0.1
+Examples updated but no code changes, simply recompiled to ensure the library is compatible with both Processing 2 & 3.
+
+
+V1.0
+First release
